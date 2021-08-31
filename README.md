@@ -365,6 +365,9 @@ Steps to setup:
 - sudo nano /etc/nginx/nginx.conf
 - sudo systemctl restart nginx
 
+- NBA website files are here:
+    - /var/www/olib.cloud/html 
+
 Resources:
 - https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04
 - https://dev.to/thetrebelcc/how-to-run-a-flask-app-over-https-using-waitress-and-nginx-2020-235c
