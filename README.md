@@ -62,11 +62,14 @@ The content below highlights the various learning resources, technologies and co
         - the .git/folder inside a project
         - if .git/folder is deleted, your project's history will be deleted 
     - Working tree
-        - where files are modified 
-    - Index
+        - contains all tracked and untracked files
+            - files that are watched or ignored by Git 
+        - where all file modifications take place
+    - Index (staging area)
         - staging area where commits are prepared by comparing files in the working tree to the files in the repo
+        - newly added files are tracked
 - Basic Git Workflow:
-    - Modify file in the working tree
+    - Modify/add/delete file(s) in the working tree
     - Stage the changes you want to include in the next commit 
         - `git add`
     - Commit changes to the repo 
@@ -77,6 +80,9 @@ The content below highlights the various learning resources, technologies and co
 - Remote vs Local
     - Local repository resides on the computer of the worker
     - Remote repositories are hosted on a server, such as GitHub
+- Use a .gitignore file to ensure certain files stay untracked
+    - sample .gitignore templates https://github.com/github/gitignore
+    
 ## Concepts
 - SOC (separation of concerns)
     - the process of separating unrelated functionality from each other 
@@ -104,6 +110,7 @@ The content below highlights the various learning resources, technologies and co
         - Identifies a particular application or service on a system
         - Example: think of an IP address as an apartment building's street address, and port number as a
         specific apartment number
+        
 ## Compute Resources
 - CPU
     - Central Processing Unit 
@@ -120,10 +127,12 @@ The content below highlights the various learning resources, technologies and co
     - Persistent means when the computer shuts down, the data still exists and can be retrieved when the program runs
     - Significantly slower than RAM 
     - Examples are databasing systems (SQL servers)
+
 ## Binary
 - Bits/Bytes
 - Base-2
 - https://www.mathsisfun.com/numbers/bases.html
+
 ## ODBC/DBMS
 - DBMS (database management system)
     - A server or software system that enables users to define, create, maintain and control access to data in a database
