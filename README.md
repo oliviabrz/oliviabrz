@@ -109,7 +109,7 @@ The content below highlights the various learning resources, technologies and co
     - Port Number 
         - Identifies a particular application or service on a system
         - Example: think of an IP address as an apartment building's street address, and port number as a
-        specific apartment number
+          specific apartment number
         
 ## Compute Resources
 - CPU
@@ -160,6 +160,7 @@ The content below highlights the various learning resources, technologies and co
     - CRUD
         - Create, Read, Update, Delete
         - The 4 types of operations that can be performed on a database 
+
 ## HTTP (hypertext transmission protocol)
 - HTTP is a protocol which allows the fetching of resources on the Internet 
     - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
@@ -176,16 +177,17 @@ The content below highlights the various learning resources, technologies and co
     - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL 
 - HTTP server
     - Computer software that accepts requests via HTTP
-    - All web applications/api's require a http server
+    - All web applications/api's require an http server
     - Examples: Apache Tomcat, IIS, node.js, python flask/waitress
 - Most common HTTP methods
     - GET, POST, PUT, DELETE
 - Headers
     - Area in an http request/response where key/value pairs of information about the request/response reside
         - Example: **User-Agent:** Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
+
 ## Web API
 - API (Application Programming Interface)
-    - An interface which has a set of functions that allow programmers to access specific features or data of an application, operating     system or other services 
+    - An interface which has a set of functions that allow programmers to access specific features or data of an application, operating system or other services 
 - Web API
     - A set of functions that are called or requested using HTTP 
     - Requests are received by an HTTP server and passed to a programmer defined service running on a computer that executes the functions
@@ -196,6 +198,7 @@ The content below highlights the various learning resources, technologies and co
 - Media Type
     - Formally known as MIME type (Multipurpose Internet Mail Extensions)
     - A standard way of classifying file types on the Internet according to their nature and format
+
 ## HTML
 - HTML (Hypertext Markup Language)
 - The set of markup symbols or codes inserted into a file intended for display on the Internet
@@ -212,6 +215,7 @@ The content below highlights the various learning resources, technologies and co
             - https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model
     - You can visualize this using `F12` to bring up the browser debugger
         - Go to `Console`, then type in `document.` and you should see the DOM api functions pop up
+
 ## Angular
 - https://angular.io/docs
 - A development platform, built on [TypeScript](https://www.typescriptlang.org/), used for building single page web applications 
@@ -222,7 +226,7 @@ The content below highlights the various learning resources, technologies and co
 - Components
     - The main building block for Angular applications
     - Each component consists of:
-        - A HTML template that declares what renders on the page
+        - An HTML template that declares what renders on the page
         - A Typescript class that defines behavior
         - A CSS selector that defines how the component is used in a template
         - Optionally, CSS styles applied to the template
@@ -252,6 +256,7 @@ The content below highlights the various learning resources, technologies and co
         - `ng build`
     - run application
         - `ng serve`
+
 ## SSL Certificates 
 - Used to make https secure
 - An SSL (Secure Sockets Layer) certificate is a digital certificate that provides the following two functions:
@@ -263,7 +268,7 @@ The content below highlights the various learning resources, technologies and co
             - Contains information that will be included in the certificate such as the public key, organization name, common name (domain name), locality, and country
             - A private key is usually created at the same time that you create the CSR, making a key pair
         - Signed Certificate
-            - The process a CA uses to digitally sign your certificate using their signing certificate. When your browser trusts the CA, it's automatically trusting your certificate because it was signed by the CA.
+            - The process a CA uses to digitally sign your certificate using their signing certificate. When your browser trusts the CA, it's automatically trusting your                       certificate because it was signed by the CA.
     2. Encrypts information sent between the client/server using SSL technology and PKI
 - An SSL certificate contains the following information:
     - The certificate holder's name
@@ -276,7 +281,6 @@ The content below highlights the various learning resources, technologies and co
     - https://www.sslshopper.com/public-key-infrastructure-pki-overview.html
 - Exciting CA for obtaining your SSL certification 
     - https://letsencrypt.org/
-
 
 ## SSL Certification Process
 In order to run our Angular NBA app on our azure VM, we had to secure it with an SSL certificate. The following is the process we used to get our certificate:
@@ -291,7 +295,7 @@ In order to run our Angular NBA app on our azure VM, we had to secure it with an
     - Copy generated CSR and paste into RapidSSL CSR screen
     ### Domain Control Verification (DCV)
     - Before a certificate can be issued to a domain, you must prove to the CA that you control the domain.
-    - See: https://docs.digicert.com/manage-certificates/demonstrate-control-over-domains-pending-certificate-order/use-http-practical-demonstration-validation-method-verify-domain-control/
+    - See: https://docs.digicert.com/manage-certificates/demonstrate-control-over-domains-pending-certificate-order/use-http-practical-demonstration-validation-method-verify-         domain-control/
     - There are numerous methods for DCV such as email and HTTP Practical Demonstration.
     - We chose **HTTP Practical Demonstration**. This process is as follows for our domain `olib.cloud`:
         - In GoDaddy, add an `A` record that points to the IP Address of our VM
@@ -301,7 +305,7 @@ In order to run our Angular NBA app on our azure VM, we had to secure it with an
             - You will be given the verification URL to pull the file from your VM
         - Setup your VM to serve the .txt file. On your VM, do the following:
             - Copy .txt file to a local directory given in the verification URL 
-            - Run a http server like `sudo python3 -m  http.server 80` from the root of the path in the verification URL
+            - Run an http server like `sudo python3 -m  http.server 80` from the root of the path in the verification URL
             - Verify you can pull the .txt file using the verification URL
             - Because the file can be retrieved from my VM, proves I own the domain and VM
 
@@ -310,7 +314,7 @@ In order to run our Angular NBA app on our azure VM, we had to secure it with an
     - `F12` key
 - VisualStudio Code
     - Free editor we used for all of our work
-    - Supports Git, Python debugging,
+    - Supports Git, Python debugging
 - DBeaver
     - Client for connecting to and using various SQL servers 
 - Postman
@@ -323,7 +327,7 @@ In order to run our Angular NBA app on our azure VM, we had to secure it with an
 
 ## NBA Application 
 The [**NBA**](https://www.olib.cloud/) web application is my final project and first attempt at **Full Stack Development**.
-The application is designed to display various NBA statistics that we pulled from publically available web Api's. The application is built using Angular for the front end, Python Flask scripts for the Api's, MySQL for the database, and NGINX for the web server. The site itself is hosted in Azure Cloud on a Ubuntu Linux VM. 
+The application is designed to display various NBA statistics that we pulled from publically available web Api's. The application is built using Angular for the front end, Python Flask scripts for the Api's, MySQL for the database, and NGINX for the web server. The site itself is hosted in Azure Cloud on an Ubuntu Linux VM. 
 
 ### Full Stack Development
 - The development process that encompasses both Frontend (Client) and Backend (Server) technologies 
@@ -332,7 +336,7 @@ The application is designed to display various NBA statistics that we pulled fro
     - This can be web or mobile based applications
     - We used [Angular](#angular) to build our web front end 
         - The technologies we used are HTML, CSS, Typescript
-    - We hosted the Frontend on a Ubuntu Linux VM in Azure Cloud
+    - We hosted the Frontend on an Ubuntu Linux VM in Azure Cloud
 - Backend (Server)
     - These are the parts of the application that include the following:
         - Databasing to persist (store) our data
@@ -384,6 +388,7 @@ Resources:
 - https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04
 - https://dev.to/thetrebelcc/how-to-run-a-flask-app-over-https-using-waitress-and-nginx-2020-235c
 - https://medium.com/@anasecn/how-to-serve-an-angular-app-with-node-js-api-on-a-nginx-server-ca59de51850
+
 ### Setup ODBC Driver for module pyodbc (unixODBC)
 - pyodbc is the python implentation of the ODBC specification
 1. Download the driver for your specific database
