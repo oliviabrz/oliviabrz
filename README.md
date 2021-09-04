@@ -130,6 +130,9 @@ The content below highlights the various learning resources, technologies and co
 
 ## Binary
 - Bits/Bytes
+    - Bit is the smallest representation in binary and is either 1 or 0
+    - The next smallest representation in binary, where 8 bits equals 1 byte 
+    - Usually the number of bytes in an integer data type is equal to the CPU size 
 - Base-2
 - https://www.mathsisfun.com/numbers/bases.html
 
