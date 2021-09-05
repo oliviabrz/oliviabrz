@@ -145,7 +145,7 @@ The content below highlights the various learning resources, technologies and co
     - It is meant to be independent of any specific database or operating system
     - A ODBC Driver is what implements the specific way of accessing DBMS's
         - For your program to work with a specific DBMS, you will use a driver specific to the DBMS to implement your requests
-    ### Relational Database
+## Relational Database
     - A type of database that stores and provides access to data points that are related to one another
     - SQL (Structered Query Language)
         - The standard language for relational DBMS's 
