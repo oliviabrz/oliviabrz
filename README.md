@@ -141,6 +141,9 @@ The content below highlights the various learning resources, technologies and co
 - DBMS (database management system)
     - A server or software system that enables users to define, create, maintain and control access to data in a database
     - MySQL, Microsoft SQL Server, MariaDB, PostgreSQL
+    - Create users and permissions
+    - Import/export data
+    - Backup and restore data 
     
 ## Relational Database
     - A type of database that stores and provides access to data points that are related to one another
