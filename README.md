@@ -136,6 +136,11 @@ The content below highlights the various learning resources, technologies and co
 - Base-2
 - https://www.mathsisfun.com/numbers/bases.html
 
+# DBMS
+- DBMS (database management system)
+    - A server or software system that enables users to define, create, maintain and control access to data in a database
+    - MySQL, Microsoft SQL Server, MariaDB, PostgreSQL
+    
 ## Relational Database
     - A type of database that stores and provides access to data points that are related to one another
     - SQL (Structered Query Language)
@@ -155,10 +160,7 @@ The content below highlights the various learning resources, technologies and co
         - Create, Read, Update, Delete
         - The 4 types of operations that can be performed on a database
 
-## ODBC/DBMS
-- DBMS (database management system)
-    - A server or software system that enables users to define, create, maintain and control access to data in a database
-    - MySQL, Microsoft SQL Server, MariaDB, PostgreSQL
+## ODBC
 - ODBC (Open Database Connectivity)
     - A specification that describes or defines a generic way of accessing DBMS's
     - It is meant to be independent of any specific database or operating system
