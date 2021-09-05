@@ -137,6 +137,7 @@ The content below highlights the various learning resources, technologies and co
 - https://www.mathsisfun.com/numbers/bases.html
 
 # DBMS
+- A database is a place to store and retrieve data in a structured way 
 - DBMS (database management system)
     - A server or software system that enables users to define, create, maintain and control access to data in a database
     - MySQL, Microsoft SQL Server, MariaDB, PostgreSQL
