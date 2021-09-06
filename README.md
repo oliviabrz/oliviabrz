@@ -202,14 +202,19 @@ The content below highlights the various learning resources, technologies and co
     - A set of functions that are called or requested using HTTP 
     - Requests are received by an HTTP server and passed to a programmer defined service running on a computer that executes the functions
     - example: https://www.balldontlie.io/#getting-started
-- JSON (JavaScript Object Notation)
-    - A text based data format used to send/receive lightweight messages between computers
-    - Uses key/value pairs to structure data
 - Media Type
     - Formally known as MIME type (Multipurpose Internet Mail Extensions)
     - A standard way of classifying file types on the Internet according to their nature and format
+    
 ## JSON
-
+- JSON (JavaScript Object Notation)
+    - A text based data format used to send/receive lightweight messages between computers
+    - Uses key/value pairs to structure data
+- Python comes with a built-in package called json for encoding and decoding JSON data
+- Serialization/deserialization
+    - Serialization is converting a data structure (class, dictionary, list, etc) into a string representation   
+    - Deserialization is converting a string representation of a data structure back to an object 
+    
 ## HTML
 - HTML (Hypertext Markup Language)
 - The set of markup symbols or codes inserted into a file intended for display on the Internet
