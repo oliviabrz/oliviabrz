@@ -214,6 +214,7 @@ The content below highlights the various learning resources, technologies and co
 - Serialization/deserialization
     - Serialization is converting a data structure (class, dictionary, list, etc) into a string representation   
     - Deserialization is converting a string representation of a data structure back to an object 
+- https://json-schema.org/understanding-json-schema/about.html
     
 ## HTML
 - HTML (Hypertext Markup Language)
