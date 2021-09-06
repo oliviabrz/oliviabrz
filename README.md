@@ -172,17 +172,19 @@ The content below highlights the various learning resources, technologies and co
         - For your program to work with a specific DBMS, you will use a driver specific to the DBMS to implement your requests
 
 ## HTTP (hypertext transmission protocol)
-- HTTP is a protocol which allows the fetching of resources on the Internet 
+- HTTP is a protocol or set of rules that defines computer data exchange 
     - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
-- HTTP vs HTTPS
-    -HTTP is insecure
-    -https is secured by a certificate on a server that tells clients that they are talking to the domain they intended to talk to 
-        - PKI (public key infrastructure)
-            - public/private key
-            - used to make https secure
-            - https://www.sslshopper.com/public-key-infrastructure-pki-overview.html
+- Implements a client/server (request/response) pattern 
+- Parts of an http request/response message:
+    - URL
+    - Method
+         - GET, PUT, POST, DELETE
+    - Header values
+    - Body (json)
+    - Http status code (200, 300, 400, 500)
 - URL (Uniform Resource Locater)
     - The path to a unique resource on the Web
+    - <scheme><path><resource>
     - https://blog.hubspot.com/marketing/parts-url
     - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL 
 - HTTP server
@@ -194,7 +196,14 @@ The content below highlights the various learning resources, technologies and co
 - Headers
     - Area in an http request/response where key/value pairs of information about the request/response reside
         - Example: **User-Agent:** Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
-
+- HTTP vs HTTPS
+    -HTTP is insecure
+    -https is secured by a certificate on a server that tells clients that they are talking to the domain they intended to talk to 
+        - PKI (public key infrastructure)
+            - public/private key
+            - used to make https secure
+            - https://www.sslshopper.com/public-key-infrastructure-pki-overview.html
+            
 ## Web API
 - API (Application Programming Interface)
     - An interface which has a set of functions that allow programmers to access specific features or data of an application, operating system or other services 
@@ -202,6 +211,9 @@ The content below highlights the various learning resources, technologies and co
     - A set of functions that are called or requested using HTTP 
     - Requests are received by an HTTP server and passed to a programmer defined service running on a computer that executes the functions
     - example: https://www.balldontlie.io/#getting-started
+- CRUD
+    - Create, Read, Update, Delete
+    - The 4 types of operations that can be performed on a resource
 - Media Type
     - Formally known as MIME type (Multipurpose Internet Mail Extensions)
     - A standard way of classifying file types on the Internet according to their nature and format
