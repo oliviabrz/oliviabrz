@@ -208,13 +208,14 @@ The content below highlights the various learning resources, technologies and co
     
 ## JSON
 - JSON (JavaScript Object Notation)
-    - A text based data format used to send/receive lightweight messages between computers
+    - Describes the structure of data 
+        - https://json-schema.org/understanding-json-schema/about.html
+    - A text/string based data format used to send/receive lightweight messages between computers
     - Uses key/value pairs to structure data
 - Python comes with a built-in package called json for encoding and decoding JSON data
 - Serialization/deserialization
-    - Serialization is converting a data structure (class, dictionary, list, etc) into a string representation   
-    - Deserialization is converting a string representation of a data structure back to an object 
-- https://json-schema.org/understanding-json-schema/about.html
+    - Serialization is converting a data structure (class, dictionary, list, etc) into a **string** representation   
+    - Deserialization is converting a string representation of a data structure back to an **object** representation
     
 ## HTML
 - HTML (Hypertext Markup Language)
