@@ -146,23 +146,23 @@ The content below highlights the various learning resources, technologies and co
     - Backup and restore data 
     
 ## Relational Database
-    - A type of database that stores and provides access to data points that are related to one another
-    - SQL (Structered Query Language)
-        - The standard language for relational DBMS's 
-    - Primary key
-        - Uniquely identifies each record in a table
-    - Foreign key
-        - a database key that is used to link two tables together
-    - Normal forms
-        - First normal form
-            - The relation cannot contain any repeating groups
-        - Second normal form
-            - Every field in the relation must be functionally dependent upon the entire primary key
-        - Third normal form
-            - The relation cannot contain any transitive dependencies
-    - CRUD
-        - Create, Read, Update, Delete
-        - The 4 types of operations that can be performed on a database
+- A type of database that stores and provides access to data points that are related to one another
+- SQL (Structered Query Language)
+    - The standard language for relational DBMS's 
+- Primary key
+    - Uniquely identifies each record in a table
+- Foreign key
+    - a database key that is used to link two tables together
+- Normal forms
+    - First normal form
+        - The relation cannot contain any repeating groups
+    - Second normal form
+        - Every field in the relation must be functionally dependent upon the entire primary key
+    - Third normal form
+         - The relation cannot contain any transitive dependencies
+- CRUD
+    - Create, Read, Update, Delete
+    - The 4 types of operations that can be performed on a database
 
 ## ODBC
 - ODBC (Open Database Connectivity)
@@ -208,6 +208,7 @@ The content below highlights the various learning resources, technologies and co
 - Media Type
     - Formally known as MIME type (Multipurpose Internet Mail Extensions)
     - A standard way of classifying file types on the Internet according to their nature and format
+## JSON
 
 ## HTML
 - HTML (Hypertext Markup Language)
