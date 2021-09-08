@@ -255,7 +255,9 @@ The content below highlights the various learning resources, technologies and co
     - This is all made possible by the DOM
     - TypeScript performs CRUD operations to the DOM which makes the application perform faster
 - Components
-    - The main building block for Angular applications
+    - The main building block for Angular applications 
+    - Allows for organizing an application by seperating concerns 
+        - In our NBA app, our components are players, teams, games and game stats
     - Each component consists of:
         - An HTML template that declares what renders on the page
         - A Typescript class that defines behavior
