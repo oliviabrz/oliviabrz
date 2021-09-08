@@ -253,6 +253,7 @@ The content below highlights the various learning resources, technologies and co
     - A web application that loads most resources (HTML+CSS+Scripts) only once when the site is first loaded by the browser
     - Only data is transmitted back and forth
     - This is all made possible by the DOM
+    - TypeScript performs CRUD operations to the DOM which makes the application perform faster
 - Components
     - The main building block for Angular applications
     - Each component consists of:
