@@ -184,7 +184,7 @@ The content below highlights the various learning resources, technologies and co
     - Http status code (200, 300, 400, 500)
 - URL (Uniform Resource Locater)
     - The path to a unique resource on the Web
-    - <scheme><path><resource>
+    - scheme --> path --> resource
     - https://blog.hubspot.com/marketing/parts-url
     - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL 
 - HTTP server
