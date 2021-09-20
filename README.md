@@ -285,6 +285,9 @@ The content below highlights the various learning resources, technologies and co
     - https://angular.io/cli
     - scaffold new application
         - `ng new`
+            - *NOTE* it appears ng new creates everything as root which caused issues doing ng serve. To fix this, do the following:
+                - `sudo chown -R <user> *` 
+                - `sudo chown -R <user> .*` 
     - build application
         - `ng build`
     - run application
