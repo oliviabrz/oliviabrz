@@ -344,7 +344,13 @@ In order to run our Angular NBA app on our azure VM, we had to secure it with an
             - Run an http server like `sudo python3 -m  http.server 80` from the root of the path in the verification URL
             - Verify you can pull the .txt file using the verification URL
             - Because the file can be retrieved from my VM, proves I own the domain and VM
+## .Net
+- dotnet NbaCsharpWebApi.dll --urls http://0.0.0.0:6002
 
+    ### systemctl
+    - ensure to set the working path in the .service file like this example:
+        - `WorkingDirectory=/home/oliviabrz/NBA/csharp`
+        
 ## Useful Tools
 - Chrome debugger
     - `F12` key
