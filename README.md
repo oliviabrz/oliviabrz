@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Olivia</h1>
 <h3 align="center">Full Stack Engineer</h3>
 
-- 🌱 I’m currently learning **data structures/algorithms, expanding on my knowledge of full stack development**
+- 🌱 I’m currently learning **data structures/algorithms as well as expanding on my knowledge of full stack development**
 
 - ⚡ Fun fact **I was a mascot in college**
 
