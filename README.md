@@ -1,8 +1,10 @@
 <h1 align="center">Hi 👋, I'm Olivia</h1>
 <h3 align="center">Full Stack Engineer</h3>
 
-- 🌱 I’m currently learning **data structures/algorithms as well as expanding on my knowledge of full stack development**
-
+- 🌱 I’m currently learning/reviewing **data structures/algorithms**
+- 🎓 I graduated from **The Grace Hopper Program at Fullstack Academy** in April 2022
+- 💻 I am using this time **to do a deep review of JavaScript fundamentals** 
+- 🔍 I am looking for **a job as a Software Engineer**
 - ⚡ Fun fact **I was a mascot in college**
 
 <h3 align="left">Connect with me:</h3>
