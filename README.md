@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Olivia</h1>
-<h3 align="center">Full Stack Engineer</h3>
+<h3 align="center">Full Stack Software Engineer</h3>
 
 - 🌱 I’m currently learning/reviewing **data structures/algorithms**
 - 🎓 I graduated from **The Grace Hopper Program at Fullstack Academy** in April 2022
