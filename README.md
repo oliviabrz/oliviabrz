@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋, I'm Olivia</h1>
 <h3 align="center">Software Engineer</h3>
 
-- 🌱 I’m currently learning/reviewing **data structures/algorithms**
+- 🌱 I’m currently learning **Django, Docker & Kubernetes**
 - 🎓 I graduated from **The Grace Hopper Program at Fullstack Academy** in April 2022
-- 💻 I am using this time **to do a deep review of JavaScript fundamentals** 
 - ⚡ Fun fact **I was a mascot in college**
 
 <h3 align="left">Connect with me:</h3>
