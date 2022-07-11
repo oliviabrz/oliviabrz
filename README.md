@@ -1,6 +1,7 @@
 <h1 align="center">Hi 👋, I'm Olivia</h1>
 <h3 align="center">Software Engineer</h3>
 
+- 💻 I'm a **Software Engineer at Stratis IoT**
 - 🌱 I’m currently learning **Django, Docker & Kubernetes**
 - 🎓 I graduated from **The Grace Hopper Program at Fullstack Academy** in April 2022
 - ⚡ Fun fact **I was a mascot in college**
